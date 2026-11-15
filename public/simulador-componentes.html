@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seleccionar componentes | SetupCheck</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="assets/styles/styles.css">
+</head>
+<body>
+
+  <header>
+    <nav class="menu">
+      <a class="logo" href="index.html"><span class="logo-icono">✓</span><span>Setup<span class="azul">Check</span></span></a>
+      <a class="enlace" href="index.html">Inicio</a>
+      <a class="enlace" href="#">Hardware</a>
+      <a class="enlace" href="benchmarks.html">Benchmarks</a>
+      <a class="enlace activo" href="simulador.html">Simulador</a>
+      <a class="enlace" href="comunidad.html">Comunidad</a>
+      <span class="espacio"></span>
+      <a class="btn-sesion" href="login.html">Iniciar sesión</a>
+    </nav>
+  </header>
+
+  <section class="contenedor">
+    <div class="pasos"><span class="paso-activo"><span class="circulo activo">1</span>Seleccionar componentes</span> <span>→</span> <span><span class="circulo">2</span>Analizar configuración</span> <span>→</span> <span><span class="circulo">3</span>Resultado final</span></div>
+    <div class="con-importar">
+      <aside class="panel-importar">
+        <h3 class="titulo-chico">⇪ Importar componentes</h3>
+        <p class="texto-chico">Pega tu lista de componentes (ej. de una tienda o un armado propio) y detectaremos automáticamente los componentes.</p>
+        <div class="lista-pegada">Ryzen 7 5700X<br>RTX 4060<br>B550M<br>16GB DDR4<br>650W<br>NZXT H510</div>
+        <a class="btn btn-ancho" href="simulador-analisis.html">Analizar lista →</a>
+        <p style="margin: 20px 0 12px 0; font-weight: bold; font-size: 14px;">Componentes detectados</p>
+        <div class="detectado"><span>◫ Ryzen 7 5700X</span><span class="estado ok">Detectado</span></div>
+        <div class="detectado"><span>◫ RTX 4060</span><span class="estado ok">Detectado</span></div>
+        <div class="detectado"><span>◫ B550M</span><span class="estado ok">Detectado</span></div>
+        <div class="detectado"><span>◫ 16GB DDR4</span><span class="estado ok">Detectado</span></div>
+        <div class="detectado"><span>◫ 650W</span><span class="estado ok">Detectado</span></div>
+        <div class="detectado"><span>◫ NZXT H510</span><span class="estado sin">Sin coincidencia</span></div>
+      </aside>
+      <div style="flex: 1;">
+        <h1 class="titulo-medio" style="margin-bottom: 4px;">Seleccionar componentes</h1>
+        <p class="texto-claro">Busca y selecciona los componentes para tu configuración.</p>
+        <div class="chips"><span class="chip activo">CPU</span><span class="chip">GPU</span><span class="chip">Placa madre</span><span class="chip">RAM</span><span class="chip">Fuente</span><span class="chip">Refrigeración</span><span class="chip">Gabinete</span></div>
+        <div class="fila" style="margin-bottom: 16px;">
+          <div class="buscador buscador-ancho" style="flex: 1; border-radius: 10px; padding: 12px 16px;"><span>⌕</span><input type="text" placeholder="Buscar componentes..."></div>
+          <span class="btn btn-borde" style="border-radius: 10px;">Ordenar por: Relevancia ⌄</span>
+        </div>
+        <div class="componente">
+          <div class="foto">RYZEN</div>
+          <div class="info"><b>AMD Ryzen 7 5700X</b><p>8 núcleos / 16 hilos · 3.4–4.6 GHz · AM4</p><span class="tag">Gran rendimiento</span><span class="tag gris">Muy popular</span></div>
+          <a class="btn" href="#">Agregar</a>
+        </div>
+        <div class="componente">
+          <div class="foto">RYZEN</div>
+          <div class="info"><b>AMD Ryzen 5 5600</b><p>6 núcleos / 12 hilos · 3.5–4.4 GHz · AM4</p><span class="tag">Excelente costo-beneficio</span><span class="tag gris">Popular</span></div>
+          <a class="btn" href="#">Agregar</a>
+        </div>
+        <div class="componente">
+          <div class="foto intel">intel</div>
+          <div class="info"><b>Intel Core i5-13400F</b><p>10 núcleos / 16 hilos · 2.5–4.6 GHz · LGA1700</p><span class="tag">Alto rendimiento</span><span class="tag gris">Buena eficiencia</span></div>
+          <a class="btn" href="#">Agregar</a>
+        </div>
+        <div class="fila-inferior">
+          <div>0 componentes seleccionados</div>
+          <div>Continuar cuando completes la configuración</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <script src="assets/scripts/main.js"></script>
+</body>
+</html>

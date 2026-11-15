@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resultado final | SetupCheck</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="assets/styles/styles.css">
+</head>
+<body>
+
+  <header>
+    <nav class="menu">
+      <a class="logo" href="index.html"><span class="logo-icono">✓</span><span>Setup<span class="azul">Check</span></span></a>
+      <a class="enlace" href="index.html">Inicio</a>
+      <a class="enlace" href="#">Hardware</a>
+      <a class="enlace" href="benchmarks.html">Benchmarks</a>
+      <a class="enlace activo" href="simulador.html">Simulador</a>
+      <a class="enlace" href="comunidad.html">Comunidad</a>
+      <span class="espacio"></span>
+      <a class="btn-sesion" href="login.html">Iniciar sesión</a>
+    </nav>
+  </header>
+
+  <section class="contenedor">
+    <div class="pasos"><span><span class="circulo activo">✓</span>Seleccionar componentes</span> <span>→</span> <span><span class="circulo activo">✓</span>Analizar configuración</span> <span>→</span> <span class="paso-activo"><span class="circulo activo">3</span>Resultado final</span></div>
+    <div class="fila entre" style="margin-bottom: 24px;">
+      <div>
+        <h1 class="titulo-medio" style="margin-bottom: 4px;">Resultado final de la configuración</h1>
+        <p class="texto-chico">Resumen de tu configuración y recomendaciones.</p>
+      </div>
+      <div><a class="btn btn-borde" href="simulador-componentes.html">Modificar configuración</a> <a class="btn" href="#">Guardar resultado</a></div>
+    </div>
+    <div class="con-importar">
+      <aside class="panel-importar" style="width: 410px;">
+        <h3 class="titulo-chico" style="font-size: 17px; margin-bottom: 16px;">Configuración seleccionada</h3>
+<div class="item-componente"><span class="tipo">CPU</span><span class="nombre-comp">AMD Ryzen 7 5700X<small>8 núcleos / 16 hilos · AM4</small></span><span>›</span></div>
+<div class="item-componente"><span class="tipo">GPU</span><span class="nombre-comp">NVIDIA RTX 4060<small>8 GB GDDR6</small></span><span>›</span></div>
+<div class="item-componente"><span class="tipo">Placa madre</span><span class="nombre-comp">ASUS B550M-PLUS<small>AM4 · B550</small></span><span>›</span></div>
+<div class="item-componente"><span class="tipo">RAM</span><span class="nombre-comp">16 GB (2 x 8 GB) DDR4<small>3200 MHz</small></span><span>›</span></div>
+<div class="item-componente"><span class="tipo">Fuente</span><span class="nombre-comp">Corsair CV650<small>650 W · 80+ Bronze</small></span><span>›</span></div>
+<div class="item-componente"><span class="tipo">Refrigeración</span><span class="nombre-comp">Cooler stock (aire)<small>Incluido con el procesador</small></span><span>›</span></div>
+<div class="item-componente"><span class="tipo">Gabinete</span><span class="nombre-comp">NZXT H510<small>Flujo de aire medio</small></span><span>›</span></div>
+      </aside>
+      <div style="flex: 1;">
+        <p style="font-weight: bold; margin-bottom: 12px;">Resultados del análisis</p>
+        <div class="grid-2">
+          <div class="tarjeta" style="min-height: 170px;"><span class="icono-circulo verde">✓</span><span class="texto-chico">Compatibilidad</span><p class="resultado-grande verde-texto">Compatible</p><p class="texto-chico">Todos los componentes son compatibles.</p></div>
+          <div class="tarjeta" style="min-height: 170px;"><span class="icono-circulo verde-oscuro">⚡</span><span class="texto-chico">Fuente de poder</span><p class="resultado-grande verde-texto">Adecuada</p><p class="texto-chico">420 W estimado · 650 W seleccionada.</p></div>
+          <div class="tarjeta" style="min-height: 170px;"><span class="icono-circulo verde-oscuro">▮</span><span class="texto-chico">Rendimiento</span><p class="resultado-grande verde-texto">Riesgo bajo</p><p class="texto-chico">144 FPS en 1080p · Sin cuellos de botella relevantes.</p></div>
+          <div class="tarjeta" style="min-height: 170px;"><span class="icono-circulo amarillo">🌡</span><span class="texto-chico">Riesgo térmico</span><p class="resultado-grande amarillo-texto">Riesgo medio</p><p class="texto-chico">Temperaturas elevadas en cargas sostenidas.</p></div>
+        </div>
+        <div class="recomendacion">
+          <p class="amarillo-texto" style="font-size: 13px;">💡 Recomendación de SetupCheck</p>
+          <p style="font-weight: bold; margin: 8px 0;">La configuración es adecuada para gaming en 1080p.</p>
+          <p class="azul texto-chico">Considera mejorar la refrigeración para mejores temperaturas y un mejor rendimiento sostenido.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <script src="assets/scripts/main.js"></script>
+</body>
+</html>
