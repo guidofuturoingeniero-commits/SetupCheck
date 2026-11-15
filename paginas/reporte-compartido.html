@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reporte compartido | SetupCheck</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+  <header>
+            <nav class="menu">
+      <a class="logo" href="../index.html"><span class="logo-icono">&#10003;</span><span>Setup<span class="azul">Check</span></span></a>
+      <a class="enlace" href="../index.html">Inicio</a>
+      <a class="enlace" href="hardware.html">Hardware</a>
+      <a class="enlace activo" href="benchmarks.html">Benchmarks</a>
+      <a class="enlace" href="simulador.html">Simulador</a>
+      <a class="enlace" href="comunidad.html">Comunidad</a>
+      <a class="enlace" href="como-funciona.html">&#191;C&#243;mo funciona?</a>
+      <a class="enlace" href="../index.html#descarga">Descargar app</a>
+      <span class="espacio"></span>
+      <a class="btn-sesion" href="login.html">Iniciar sesi&oacute;n</a>
+      <a class="buscar-menu" href="benchmarks-buscar.html" aria-label="Buscar benchmarks">&#8981;</a>
+    </nav>
+  </header>
+
+  <section class="contenedor" style="padding-top: 30px;">
+    <div class="solo-lectura"><span class="etiqueta-verde">Solo lectura</span>Estás viendo un reporte compartido · no necesitas cuenta · aportado por TechLover</div>
+    <div class="tarjeta" style="padding: 30px;">
+      <div class="fila entre">
+        <div>
+          <p class="etiqueta">Reporte #0142</p>
+          <h1 class="titulo-grande" style="font-size: 44px; margin-bottom: 8px;">Ryzen 7 5700X + <span class="azul">RTX 5060</span></h1>
+          <p class="texto-claro">La refrigeración del CPU queda justa bajo carga sostenida. 14 reportes respaldan esta configuración.</p>
+        </div>
+        <span class="riesgo medio">Riesgo medio</span>
+      </div>
+      <div class="metricas" style="border: none; margin-bottom: 10px;">
+        <div class="metrica"><p class="nombre">Temp. en reposo</p><p class="valor">38 °C</p></div>
+        <div class="metrica"><p class="nombre">Temp. en carga</p><p class="valor">78 °C</p></div>
+        <div class="metrica"><p class="nombre">FPS promedio</p><p class="valor">142</p></div>
+        <div class="metrica"><p class="nombre">Uso CPU / GPU</p><p class="valor">71 / 96%</p></div>
+      </div>
+      <a class="btn" href="#">Simular mi configuración en la app →</a>
+    </div>
+  </section>
+
+  <div class="capa-oscura"></div>
+  <div class="modal">
+    <p class="etiqueta">Compartir</p>
+    <h2 class="titulo-medio" style="margin-bottom: 8px;">Compartir reporte</h2>
+    <p class="texto-claro">Cualquiera con el enlace podrá verlo sin cuenta.</p>
+    <div class="caja-enlace">setupcheck.pe/r/[id-reporte]</div>
+    <div class="grid-2">
+      <a class="btn btn-ancho" href="#">Copiar enlace</a>
+      <a class="btn btn-ancho btn-borde" href="#">WhatsApp</a>
+    </div>
+    <p class="texto-chico" style="margin-top: 14px;">El enlace solo muestra el alias del aportante, sin datos personales.</p>
+  </div>
+
+
+  <script src="../js/script.js"></script>
+</body>
+</html>
